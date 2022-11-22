@@ -10,8 +10,8 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     const handleRouteChange = (url) => {
       ackee(url, {
-        server: 'https://your.app',
-        domainId: 'your-domain-id'
+        server: 'https://track-visit.vercel.app/',
+        domainId: '318f89b4-d620-4882-871e-ca048e3e8d28'
       }, {
         detailed: false,
         ignoreLocalhost: true,
