@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
       }, {
         detailed: false,
         ignoreLocalhost: true,
-        ignoreOwnVisits: true
+        ignoreOwnVisits: false
       })      
     }
       router.events.on('routeChangeComplete', handleRouteChange)
