@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
     const handleRouteChange = (url) => {
       ackee(url, {
         server: 'https://serene-sfogliatella-92f81b.netlify.app',
-        domainId: '318f89b4-d620-4882-871e-ca048e3e8d28'
+        domainId: '542396e4-8a6a-498c-a94e-64365dd13382'
       }, {
         detailed: false,
         ignoreLocalhost: true,
