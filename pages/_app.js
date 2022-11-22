@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
-import { useAckee } from 'use-ackee'
+import { useAckee as ackee}  from 'use-ackee'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     const handleRouteChange = (url) => {
-      useAckee(url, {
+      ackee(url, {
         server: 'https://your.app',
         domainId: 'your-domain-id'
       }, {
