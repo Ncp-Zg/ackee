@@ -5,7 +5,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-        <script async src="https://serene-sfogliatella-92f81b.netlify.app/tracker.js" data-ackee-server="https://serene-sfogliatella-92f81b.netlify.app" data-ackee-domain-id="542396e4-8a6a-498c-a94e-64365dd13382"></script>        </Head>
+        <script async defer data-website-id="94b20932-e355-47a1-8899-3d376c4ec29c" src="https://peaceful-manatee-3744ef.netlify.app/umami.js"></script>        </Head>
         <body>
           <Main />
           <NextScript />
